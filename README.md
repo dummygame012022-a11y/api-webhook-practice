@@ -23,3 +23,12 @@ Test it from a second terminal:
 
 ## Skills shown
 Python, requests, Flask, JSON, REST API, webhooks, CSV, input checking.
+
+## FastAPI version
+Validated with Pydantic; 8 pytest tests cover valid input, missing fields, and bad quantities.
+
+```
+pip install -r requirements.txt
+uvicorn webhook_fastapi:app --reload
+pytest -v
+```
