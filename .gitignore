@@ -3,3 +3,6 @@ __pycache__/
 orders*.csv
 venv/
 __pycache__/
+orders*.csv
+venv/
+__pycache__/
