@@ -32,3 +32,11 @@ pip install -r requirements.txt
 uvicorn webhook_fastapi:app --reload
 pytest -v
 ```
+
+
+## Live demo (Render)
+- Docs page: https://api-webhook-practice.onrender.com/docs
+- Endpoint: POST /webhook (FastAPI version)
+- Free demo: the first load can take about 1 minute (the server sleeps when idle)
+- The orders CSV is lost when the server restarts (free disk is temporary)
+- Versions are pinned in requirements.txt
