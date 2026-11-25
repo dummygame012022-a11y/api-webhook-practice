@@ -22,7 +22,7 @@ Test it from a second terminal:
     curl -s -X POST http://127.0.0.1:8091/webhook -H "Content-Type: application/json" -d '{"order": 102, "item": "Bread", "qty": 3}'
 
 ## Skills shown
-Python, requests, Flask, JSON, REST API, webhooks, CSV, input checking.
+Python, FastAPI, Pydantic, pytest, requests, Flask, JSON, REST API, webhooks, CSV, input checking.
 
 ## FastAPI version
 Validated with Pydantic; 8 pytest tests cover valid input, missing fields, and bad quantities.
